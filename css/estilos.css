@@ -1,0 +1,9 @@
+body {
+	font-family: 'Dancing Script', cursive;
+  background: #02010a;
+}
+.contenido{
+  max-width: 900px;
+  min-width: 300px;
+  margin: auto;
+}
