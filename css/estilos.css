@@ -7,3 +7,38 @@ body {
   min-width: 300px;
   margin: auto;
 }
+header{
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  background: #5b7989;
+  color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.principal{
+  display: flex;
+  display: -webkit-flex;
+  background-color: #82c3a6;
+  width: 100%;
+}
+.secundarios{
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  background-color: #d5c75f;
+  width: 100%;
+}
+footer{
+  padding: 0 20px;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  background: #c6d5c5;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
