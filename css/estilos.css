@@ -17,6 +17,31 @@ header{
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
+#titulo{
+  font-size: 2em;
+  float: left;
+  margin: auto;
+}
+#menu{
+  text-align: right;
+  float: right;
+  font-size: 1.2em;
+  margin: auto;
+}
+#menu ul{
+  list-style-type: none;
+  padding: 0;
+}
+#menu ul li{
+  display: inline;
+  padding: 0px 10px;
+}
+#menu ul li a{
+  color: white;
+}
+a[href='#'] {
+  text-decoration:none;
+}
 .principal{
   display: flex;
   display: -webkit-flex;
