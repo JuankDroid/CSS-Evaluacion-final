@@ -101,6 +101,26 @@ secundaria2-animacion {
   animation-name: secundaria2-animacion;
   animation-duration: 1s;
 }
+.galeria{
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  background-color: #d5c75f;
+  width: 100%;
+}
+.galeria div{
+  width: 33%;
+}
+#galeria1{
+  filter: blur(10px);
+}
+#galeria2,#galeria4,#galeria6{
+  filter: grayscale(100%);
+}
+#galeria3{
+  filter: sepia(90%);
+}
 footer{
   padding: 0 20px;
   display: flex;
