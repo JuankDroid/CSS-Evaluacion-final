@@ -79,6 +79,10 @@ img{
   background-color: #d5c75f;
   width: 100%;
 }
+.secundarios a{
+	color: black;
+	font-size: 1.2em;
+}
 #imagen-secundaria1, #imagen-secundaria2 {
 	margin: auto;
 	width: 50%;
