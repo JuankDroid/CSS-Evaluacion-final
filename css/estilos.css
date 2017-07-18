@@ -42,10 +42,18 @@ header{
 a[href='#'] {
   text-decoration:none;
 }
+img{
+  width: 100%;
+  box-shadow: 2px 2px 2px 2px #02010a;
+}
 .principal{
   display: flex;
   display: -webkit-flex;
   background-color: #82c3a6;
+  width: 100%;
+}
+#imagen-central {
+	margin: auto;
   width: 100%;
 }
 .secundarios{
@@ -55,6 +63,11 @@ a[href='#'] {
   -webkit-flex-flow: row wrap;
   background-color: #d5c75f;
   width: 100%;
+}
+#imagen-secundaria1, #imagen-secundaria2 {
+	margin: auto;
+	width: 50%;
+  text-align: center;
 }
 footer{
   padding: 0 20px;
@@ -66,4 +79,16 @@ footer{
   background: #c6d5c5;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
+}
+footer div{
+  padding: 0% 1%;
+  width: 23%;
+}
+footer figure{
+  margin: auto;
+  float: left;
+}
+footer figure img{
+  max-width: 20px;
+    box-shadow: 0 0 0 0;
 }
