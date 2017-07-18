@@ -92,3 +92,24 @@ footer figure img{
   max-width: 20px;
     box-shadow: 0 0 0 0;
 }
+
+@media screen and (max-width: 900px){
+  .contenido, .galeria div{
+    width: 100%;
+    margin: 0,auto;
+  }
+  #titulo,#menu{
+    width: 100%;
+    text-align: center;
+  }
+  #imagen-secundaria1, #imagen-secundaria2 {
+  	margin: auto;
+  	width: 100%;
+  }
+  #imagen-secundaria1 img, #imagen-secundaria2 img {
+  	width: 75%;
+  }
+  #Contacto,#Terminos,#Redes_Sociales,#Derechos{
+    width: 100%;
+  }
+}
